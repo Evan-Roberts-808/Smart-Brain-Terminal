@@ -1,8 +1,8 @@
 {
   "name": "facerecognitionbrain",
   "version": "0.1.0",
-  "private": true,
-  "homepage":"https://Evan-Roberts-808.github.io",
+  "private": false,
+  "homepage":"https://evan-roberts-808.github.io/Smart-Brain-Terminal/",
   "dependencies": {
     "-": "^0.0.1",
     "gh-pages": "^4.0.0",
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build", 
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
