@@ -2,12 +2,16 @@
   "name": "facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://Evan-Roberts-808.github.io",
   "dependencies": {
+    "-": "^0.0.1",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-particles-js": "^2.1.0",
     "react-scripts": "^5.0.1",
     "react-tilt": "^0.1.4",
+    "save-dev": "^0.0.1-security",
     "serve": "^13.0.2",
     "tachyons": "^4.12.0"
   },
@@ -15,7 +19,9 @@
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
