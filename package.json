@@ -13,7 +13,8 @@
     "react-tilt": "^0.1.4",
     "save-dev": "^0.0.1-security",
     "serve": "^13.0.2",
-    "tachyons": "^4.12.0"
+    "tachyons": "^4.12.0",
+    "nth-check": ">=2.0.1"
   },
   "scripts": {
     "start": "serve -s build",
