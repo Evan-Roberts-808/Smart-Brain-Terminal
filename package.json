@@ -1,6 +1,6 @@
 {
   "homepage":"https://evan-roberts-808.github.io/Smart-Brain-Terminal/",
-  "name": "Smart-Brain-Terminal",
+  "name": "smart-brain-terminal",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", "deploy": "gh-pages -d build",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
